@@ -1,0 +1,1 @@
+print ('Privet, 4e tipa kak?')
