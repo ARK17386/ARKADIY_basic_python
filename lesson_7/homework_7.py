@@ -222,4 +222,3 @@
 # K = int(input('Введите число K: '))
 # for i in range(A, B+1, K):
 #     print(i, end=' ')
-#
