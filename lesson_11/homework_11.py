@@ -10,7 +10,7 @@ greet("Анна")
 Привет, Анна! Добро пожаловать!
 ===============================================
 """
-from lesson_8.homework_8 import result
+
 
 
 def greet(name):
@@ -169,6 +169,7 @@ print(summarize(1, 2, 3))           # 6
 print(summarize(10, "abc", 5, 2))   # 17 (игнорируем "abc")
 ===============================================
 """
+print('Задание № 10')
 # def summarize(*args):
 #     summa = 0
 #     for arg in args:
@@ -186,7 +187,7 @@ def summarize(*args):
             summa += arg
     return summa
 
-print(summarize(1, 2, 3))
+print(summarize(1, 2, 3, True))
 print(summarize(10, "abc", 5, 2))
 print('--------------')
 
@@ -242,10 +243,12 @@ print(merge_lists([1, 2], [3, 4], [5, 6]))
 [1, 2, 3, 4, 5, 6]
 ===============================================
 """
+print('Задание № 13')
+
 def merge_lists(*lists):
     result = []
-    for list in lists:
-        result += list
+    for spisok in lists:
+        result += spisok
     return result
 
 print(merge_lists([1, 2], [3, 4], [5, 6]))
@@ -262,10 +265,12 @@ print(merge_dicts(d1, d2, d3))
 Ожидаемый результат:
 {'a': 1, 'b': 3, 'c': 5, 'd': 6}
 """
+print('Задание № 14')
+
 def merge_dicts(*dicts):
     result = {}
-    for dict in dicts:
-        result |= dict
+    for z in dicts:
+        result |= z
     return result
 
 d1 = {"a": 1, "b": 2}

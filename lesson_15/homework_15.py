@@ -37,10 +37,17 @@ print('-------------')
 Python – э
 ===============================================
 """
+# print('Задание 3')
+# f = open(file_1, encoding='utf-8')
+# text_2 = f.readline()
+# simv = text_2[:10]
+# print(simv)
+# f.close()
+# print('-------------')
+
 print('Задание 3')
 f = open(file_1, encoding='utf-8')
-text_2 = f.readline()
-simv = text_2[:10]
+simv = f.read(10)
 print(simv)
 f.close()
 print('-------------')

@@ -38,11 +38,13 @@ Hello!
 Hello!
 ===============================================
 """
+print('Задание № 2')
+
 def repeat(n):
     def decorator(func):
         def wrapper(*args, **kwargs):
             for i in range(n):
-                print(f'{i+1} вызов')
+                # print(f'{i+1} вызов')
                 result = func(*args, **kwargs)
             return result
         return wrapper
