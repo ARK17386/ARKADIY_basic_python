@@ -127,19 +127,21 @@
 Используйте continue, чтобы пропустить четные числа.
 ===============================================
 """
-# a = int(input('Введите число а: '))
-# b = int(input('Введите число b: '))
-# if a > b:
-#     print("Ошибка: a должно быть меньше или равно b")
-# else:
-#     current = a
-# print(f"Нечетные числа в диапазоне [{a}, {b}]:")
-# while current <= b:
-#     if current % 2 == 0:
-#         current += 1
-#         continue
-#     print(current,end=' ')
-#     current += 1
+print('Задание № 3') # Исправлено после проверки ДЗ
+a = int(input('Введите число а: '))
+b = int(input('Введите число b: '))
+
+if a > b:
+    print("Ошибка: a должно быть меньше или равно b")
+else:
+    current = a
+    print(f"Нечетные числа в диапазоне [{a}, {b}]:")
+    while current <= b:
+        if current % 2 == 0:
+            current += 1
+            continue
+        print(current,end=' ')
+        current += 1
 
 """
 4. Проверка на простое число

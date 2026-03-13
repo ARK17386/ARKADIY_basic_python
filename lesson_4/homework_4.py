@@ -10,7 +10,7 @@
 Преобразуй строку в нижний регистр и выведи результат.
 ================================================
 """
-from operator import index
+
 
 s = 'Python для автоматизации'
 print(s.upper())
@@ -38,7 +38,7 @@ print('----------------')
 """
 print(msg) # для удобства
 print(msg.index('ка'))
-print(msg.index('а', -1))
+print(msg.rfind('а'))
 # print(msg.index('xyz'))  - ValueError: substring not found - Лучше использовать find
 print('----------------')
 """
