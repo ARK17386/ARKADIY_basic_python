@@ -177,7 +177,7 @@ import random
 
 colors = ["red", "green", "blue", "yellow", "purple"]
 color = random.choice(colors)
-print(color)
+print(f'Выбран цвет: {color}')
 
 print('---------------------------------------------')
 """
@@ -188,7 +188,7 @@ print('Задание 10')
 
 random.seed(12)
 for i in range(10):
-    num = random.randint(1, 100)
+    num = random.randint(0, 100)
     print(num, end=' ')
 
 print('\n---------------------------------------------')

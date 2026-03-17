@@ -10,7 +10,6 @@
 Python Java C++
 ===============================================
 """
-from lesson_8.homework_8 import kvadraty
 
 print('Задание 1:')
 lst_1 = ["Python", 123, "Java", 456, "C++", 789]
